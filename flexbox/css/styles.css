@@ -1,0 +1,48 @@
+/* Do everything in this file */
+
+figure{
+    max-width: 650px;
+    margin: 0px auto;
+}
+
+figure img{
+    width: 100%;
+}
+
+header, main, footer{
+    width: 90vw;
+    margin: 0px auto;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.tet{
+    display: flex;
+    flex: 1 0 450px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+div.tet img{
+    width: 60%;
+}
+
+div.tet.long img{
+    height: 50%;
+}
+
+span{
+    display: block;
+    margin: 1px 0px;
+    width: 110%;
+    height: 110%;
+    font-weight: bold;
+}
+
+div.aliases{
+    text-align: left;
+    margin: 1em;
+}

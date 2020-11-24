@@ -1,0 +1,98 @@
+body{
+    background-color: #102542;
+}
+
+h1{
+    text-align: center;
+    color: #B8BAD9;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 150px repeat(4, 300px);
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "blank bio"
+    "project1 desc1"
+    "project2 desc2"
+    "project3 desc3"
+    "github descgit";
+    width: 90vw;
+    margin: 0px auto;
+    background-color: #78A1BB;
+}
+
+#bio{
+    border: 3px solid #FF6F00;
+    width: 50%;
+    grid-area: bio;
+    align-self: center;
+    margin: 0px 8vw;
+}
+
+#portrait{
+    border: 5px solid #FF6F00;
+    width: 20%;
+    margin: 0 39% 1%;
+}
+
+img.projects{
+    border: 5px solid #FF6F00;
+    width: 90%;
+    margin: 0px 5px;
+}
+
+p.links{
+    margin: 0px 5px;
+}
+
+#project1{
+    grid-area: project1;
+}
+
+#project2{
+    grid-area: project2;
+}
+
+#project3{
+    grid-area: project3;
+}
+
+#github{
+    grid-area: github;
+}
+
+#desc1{
+    grid-area: desc1;
+}
+
+#desc2{
+    grid-area: desc2;
+}
+
+#desc3{
+    grid-area: desc3;
+}
+
+#descgit{
+    grid-area: descgit;
+}
+
+a:link{
+    color: #0004ff;
+}
+
+a:visited{
+    color: #EECF6D;
+}
+
+a:focus{
+    color: #102542;
+}
+
+a:hover{
+    color: #102542;
+}
+
+a:active{
+    color: #EECF6D;
+}
