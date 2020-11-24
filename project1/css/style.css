@@ -1,0 +1,195 @@
+body{
+    background-color: #31353d;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #eb8333;
+    font-size: 50px;
+}
+
+p{
+    color: lightgrey;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0px auto;
+    background-color: #455057;
+}
+
+#contactheading{
+    color: #eb8333;
+    font-size: 50px;
+}
+
+#biodiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#bioheading{
+    font-size: 50px;
+    color: #eb8333;
+}
+
+#bio{
+    border: 3px solid #eb8333;
+    width: 40%;
+    padding: 1rem;
+    margin: 0 0 5rem;
+}
+
+#projectheading{
+    color: #eb8333;
+    font-size: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px){
+    nav{
+        background-color: #455057;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img.projectimg{
+        border: 5px solid #eb8333;
+        max-height: 200px;
+        align-self: center;
+        margin: 10px 5px;
+    }
+
+    .project{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    #resume{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    #portrait{
+        border: 5px solid #eb8333;
+        min-height: 100px;
+        max-height: 200px;
+        margin: 0 0 2rem;
+    }
+}
+
+@media screen and (min-width: 780px){
+    nav{
+        background-color: #455057;
+        position: sticky;
+        top: 0;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    img.projectimg{
+        border: 5px solid #eb8333;
+        width: 40%;
+        margin: 10px 5px;
+    }
+
+    .project{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    #resume{
+        display: grid;
+        grid-template-areas: 
+        "resume resumelink"
+        "resume linkedin"
+        "resume github";
+        align-items: center;
+        font-size: x-large;
+    }
+
+    #portrait{
+        border: 5px solid #eb8333;
+        min-height: 200px;
+        max-height: 500px;
+        margin: 0 0 2rem;
+    }
+
+    p{
+        font-size: x-large;
+    }
+
+    .projectdesc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: x-large;
+    }
+}
+
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+    font-size: x-large;
+}
+
+div{
+    margin-left: 1em;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+}
+
+#resumeimg{
+    grid-area: resume;
+    margin: 0 0 10px 10px;
+}
+
+a:link{
+    color: #5AC4C4;
+}
+
+a:visited{
+    color: #389797;
+}
+
+a:focus{
+    color:#3eadad;
+}
+
+a:hover{
+    color: #3eadad;
+}
+
+a:active{
+    color: #3eadad;
+}

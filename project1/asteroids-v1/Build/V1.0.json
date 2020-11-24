@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Heiden_Asteroids",
+"productVersion": "0.1",
+"dataUrl": "V1.0.data.unityweb",
+"wasmCodeUrl": "V1.0.wasm.code.unityweb",
+"wasmFrameworkUrl": "V1.0.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.7f1"
+}

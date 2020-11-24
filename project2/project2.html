@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dog Heaven</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Dog Heaven</h1>
+        <img src="images/puppies.jpg" alt="Puppies">
+    </header>
+
+    <div id="searchbox">
+        <p>Breed:</p>
+        <div class="widgets">
+            <select id="breed">
+                <option value="random">Random</option>
+            </select>
+        </div>
+
+        <p>Sub-Breed:</p>
+        <div class="widgets">
+            <select id="sub-breed">
+                <option value="">No Sub-Breeds</option>
+            </select>
+
+            <p id="at-most-one">No Sub-Breeds</p>
+        </div>
+
+        <p>Number of Images:</p>
+        <div class="widgets">
+            <select id="limit">
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+
+        <div class="widgets">
+            <button type="button" id="search" class="green">Find new dogs!</button>
+        </div>
+    </div>
+    <div id="status">Ready to Search!</div>
+    <hr>
+
+    <h2>Results</h2>
+    <div id="content">
+        <p>No data yet!</p>
+    </div>
+
+
+</body>
+
+</html>
